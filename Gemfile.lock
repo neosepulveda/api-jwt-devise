@@ -78,6 +78,7 @@ GEM
     ffi (1.9.18)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
+    hashie (3.5.5)
     i18n (0.8.1)
     jwt (1.5.6)
     listen (3.0.8)
@@ -96,6 +97,9 @@ GEM
     nio4r (2.0.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
+    omniauth (1.6.1)
+      hashie (>= 3.4.6, < 3.6.0)
+      rack (>= 1.6.2, < 3)
     orm_adapter (0.5.0)
     peek (0.2.0)
       coffee-rails
@@ -191,6 +195,7 @@ DEPENDENCIES
   factory_girl_rails
   jwt
   listen (~> 3.0.5)
+  omniauth
   peek
   pg (~> 0.18)
   pry
