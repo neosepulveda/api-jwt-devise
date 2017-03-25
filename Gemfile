@@ -17,7 +17,10 @@ gem 'puma', '~> 3.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
+gem 'jwt'
+gem 'devise'
+gem 'devise_token_auth'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -28,6 +31,13 @@ gem 'puma', '~> 3.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'factory_girl_rails'
+  gem 'rspec', '~> 3.5'
+  gem 'awesome_print'
+  gem 'peek'
+  gem 'better_errors'
 end
 
 group :development do
