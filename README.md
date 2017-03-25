@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sign Up
+`curl -X POST -d email="test@example.com" -d password="password123" -d password_confirmation="password123" -d confirm_success_url="smtp://localhost:1025" http://localhost:3000/auth`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
